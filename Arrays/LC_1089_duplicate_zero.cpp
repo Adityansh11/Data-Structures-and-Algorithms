@@ -1,3 +1,6 @@
+#include<bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     void duplicateZeros(vector<int>& arr) {
@@ -20,5 +23,18 @@ public:
             j++;
         }
         arr=num;
+    }
+
+    int main(){
+        vector<int> arr;
+        cout<<"enter values in arr"<< endl;
+        cin>>arr;
+        duplicateZeros(arr);
+        int n=arr.size();
+        int i=0;
+        while(i<n){
+            cout>>arr[i++];
+        }
+        return 0;
     }
 };

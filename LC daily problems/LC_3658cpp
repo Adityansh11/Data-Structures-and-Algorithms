@@ -1,0 +1,11 @@
+class Solution {
+public:
+    int gcdOfOddEvenSums(int n) {
+        return n;
+    }
+};
+
+//even sum=n(n+1)
+//odd sum=n*n;
+
+//common n
