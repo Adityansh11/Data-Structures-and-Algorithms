@@ -24,16 +24,18 @@ public:
         }
         arr=num;
     }
+};
 
     int main(){
         vector<int> arr;
         cout<<"enter values in arr"<< endl;
-        cin>>arr;
+        int n;
+        cin>>n;
+        
         duplicateZeros(arr);
-        int n=arr.size();
         int i=0;
         while(i<n){
-            cout>>arr[i++];
+            cout<<arr[i++];
         }
         return 0;
     }
