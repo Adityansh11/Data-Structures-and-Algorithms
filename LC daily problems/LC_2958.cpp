@@ -7,7 +7,8 @@ public:
         unordered_map<int,int>mp;
         int ans=0;
         while(end<n){
-            mp[nums[end++]]++;
+            mp[nums[end]]++;
+            end++;
             while(mp[nums[end-1]]>k){
                 mp[nums[st]]--;
                 st++;
